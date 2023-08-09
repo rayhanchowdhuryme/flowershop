@@ -8,9 +8,8 @@ body {
 }
 
 /* Common styles  */
-.heading2 {
+.heading {
     color: #272727;
-    font-size: 62px;
     font-weight: 800;
     line-height: 1.2;
 }
@@ -29,6 +28,7 @@ button {
     font-size: 20px;
     font-weight: 700;
     padding: 20px 43px;
+    border: 1px solid #E55473;
 }
 
 .hero {
@@ -46,9 +46,15 @@ button {
     align-items: center;
 }
 
+.heading2{
+    font-size: 62px;
+}
+
 .description {
     padding: 32px 60px 32px 0px;
 }
+
+
 
 .hero-right {
     flex-basis: 50%;
@@ -57,4 +63,82 @@ button {
 .hero-image {
     width: 95%;
     padding-left: 20px;
+}
+
+
+/* Section one description */
+.section-one-des{
+    width: 594px;
+    text-align: center;
+    margin: auto;
+    padding-top: 50px;
+}
+
+.sec1heading3{
+    font-size: 35px;
+}
+
+.sec1para{
+    padding: 20px 0px;
+}
+
+/* Section one picture  */
+..picture{
+    padding: 50px 200px;
+}
+
+.section-one-pic{
+    display: flex;
+    gap: 24px;
+}
+
+.secOneImage{
+    flex-basis: 33.33%;
+    flex: 1;
+}
+
+.figure{
+    margin: 0;
+    padding: 0;
+}
+
+.image1 figure{
+    background-image: url('images/rect1.png');
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    height: 100px;
+}
+
+.firstImage{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50%;
+    height: auto;
+}
+
+.image2 figure{
+    background-image: url('images/rect2.png');
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.image3 figure{
+    background-image: url('images/rect3.png');
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+figure img{
+ width: 50%;
+ height: 100%;
+ position: relative;
+ bottom: 0px;
+
 }
